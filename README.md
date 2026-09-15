@@ -1,7 +1,9 @@
 # NPC Assignment 2: Protocol Analysis with Wireshark
 
 **Course / Module:** Unit 2: Network Models and Protocols  
-**Author:** Pranav Kotame  
+**Author:** Shubham Shinde  
+**PRN:** 2125UCSM1042  
+**Repository:** [Protocol-Analysis-with-Wireshark](https://github.com/ShubhamShinde148/Protocol-Analysis-with-Wireshark)  
 
 ---
 
@@ -74,7 +76,8 @@ Filter displaying HTTP GET request and 200 OK response:
 ---
 
 ## 7. Files in Repository
-- `Protocol_Analysis_with_Wireshark_Report.docx`: Complete project documentation with observations, tables, and embedded screenshots.
+- `Protocol_Analysis_with_Wireshark_Report.pdf`: Complete project documentation with observations, tables, and embedded screenshots (PDF format).
+- `Protocol_Analysis_with_Wireshark_Report.docx`: Complete project documentation with observations, tables, and embedded screenshots (Word format).
 - `protocol_analysis.pcapng`: Raw Wireshark packet capture file.
 - `Figure_1_TCP_Handshake.png`: Wireshark screenshot showing TCP stream 7 handshake.
 - `Figure_2_HTTP_Traffic.png`: Wireshark screenshot showing HTTP packets.
