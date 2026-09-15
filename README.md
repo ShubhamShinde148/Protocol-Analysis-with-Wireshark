@@ -67,17 +67,33 @@ Following handshake completion, client transmits an HTTP GET request:
 
 ### Figure 1: TCP Three-Way Handshake & HTTP GET Packet (`tcp.stream == 7`)
 Packets 87 (SYN), 103 (SYN-ACK), 104 (ACK), and 105 (HTTP GET):
-![Figure 1: TCP Three-Way Handshake](./Figure_1_TCP_Handshake.png)
+![Figure 1: TCP Three-Way Handshake](./screenshots/Figure_1_TCP_Handshake.png)
 
 ### Figure 2: HTTP GET Request & HTTP 200 OK Response (`http` filter)
 Filter displaying HTTP GET request and 200 OK response:
-![Figure 2: HTTP Traffic](./Figure_2_HTTP_Traffic.png)
+![Figure 2: HTTP Traffic](./screenshots/Figure_2_HTTP_Traffic.png)
 
 ---
 
-## 7. Files in Repository
-- `Protocol_Analysis_with_Wireshark_Report.pdf`: Complete project documentation with observations, tables, and embedded screenshots (PDF format).
-- `Protocol_Analysis_with_Wireshark_Report.docx`: Complete project documentation with observations, tables, and embedded screenshots (Word format).
-- `protocol_analysis.pcapng`: Raw Wireshark packet capture file.
-- `Figure_1_TCP_Handshake.png`: Wireshark screenshot showing TCP stream 7 handshake.
-- `Figure_2_HTTP_Traffic.png`: Wireshark screenshot showing HTTP packets.
+## 7. Repository Structure
+```text
+Protocol-Analysis-with-Wireshark/
+│
+├── screenshots/
+│   ├── Figure_1_TCP_Handshake.png
+│   └── Figure_2_HTTP_Traffic.png
+│
+├── protocol_analysis.pcapng
+├── Protocol_Analysis_with_Wireshark_Report.docx
+├── Protocol_Analysis_with_Wireshark_Report.pdf
+└── README.md
+```
+
+| File / Folder | Purpose |
+|---|---|
+| `screenshots/` | Captured Wireshark verification screenshots |
+| `protocol_analysis.pcapng` | Raw Wireshark packet capture file |
+| `Protocol_Analysis_with_Wireshark_Report.pdf` | Final lab report in PDF format |
+| `Protocol_Analysis_with_Wireshark_Report.docx` | Editable lab report in Word format |
+| `README.md` | Project documentation and protocol analysis summary |
+
